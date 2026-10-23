@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:scribe;MODE=PostgreSQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    open-in-view: false
+    show-sql: false
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+
+app:
+  ai:
+    provider: mock
+    model: mock-soap-extractor-v1
+    whisper:
+      provider: mock
+  cors:
+    allowed-origins: http://localhost:3000
+
+logging:
+  level:
+    root: WARN
+    com.scribe: INFO
