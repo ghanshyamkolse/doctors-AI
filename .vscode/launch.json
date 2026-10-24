@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-AiClinicalScribeApplication<ai-clinical-scribe>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.scribe.AiClinicalScribeApplication",
+      "projectName": "ai-clinical-scribe",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

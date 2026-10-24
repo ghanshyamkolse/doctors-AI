@@ -2,7 +2,7 @@
 
 ## 1. Purpose
 
-`ai-clinical-scribe` is a Spring Boot 3.x backend for an AI-powered clinical scribe and voice
+`ai-clinical-scribe` is a Spring Boot 4.x backend for an AI-powered clinical scribe and voice
 assistant. A clinician records a consultation (audio or text), the backend transcribes the audio,
 extracts a structured SOAP note and medication list, and persists the encounter for review and
 downstream use.
@@ -17,7 +17,7 @@ integrations.
 
 Implemented now:
 
-- Java 17 / Maven / Spring Boot 3.5.x project skeleton.
+- Java 25 / Maven / Spring Boot 4.1.x project skeleton.
 - PostgreSQL-backed JPA entities for patients, consultations, and prescription items.
 - Bean-validated request DTOs and strict `ApiResponse<T>` JSON envelopes.
 - Patient CRUD.

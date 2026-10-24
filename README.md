@@ -26,9 +26,9 @@ encounter.
 
 | Area | Technology |
 | --- | --- |
-| Runtime | Java 17+ |
+| Runtime | Java 25 (LTS) |
 | Build | Maven 3.9+ |
-| Framework | Spring Boot 3.5.x |
+| Framework | Spring Boot 4.1.x |
 | Web | Spring MVC / Spring Web |
 | Persistence | Spring Data JPA, Hibernate, PostgreSQL 16 |
 | Validation | Jakarta Bean Validation |
@@ -73,14 +73,14 @@ for real Whisper/LLM integrations.
 
 ## Prerequisites
 
-- JDK 17 or newer (`java -version`)
+- JDK 25 or newer (`java -version`)
 - Maven 3.9+ (`mvn -version`) or the included Maven Wrapper (`./mvnw` / `.\mvnw.cmd`)
 - PostgreSQL 16 running locally, or Docker for the provided compose file
 
 Ensure `JAVA_HOME` points to a valid JDK. On Windows:
 
 ```powershell
-$env:JAVA_HOME = "C:\Program Files\Java\jdk-17"
+$env:JAVA_HOME = "C:\Program Files\Java\jdk-25"
 $env:Path = "$env:JAVA_HOME\bin;$env:Path"
 ```
 
